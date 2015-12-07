@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get '/frontpage', to: 'home#frontpage'
   root to: 'home#frontpage'
   get '/images', to: 'home#images'
+  get '/about', to: 'home#about'
+  get '/links', to: 'home#links'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
